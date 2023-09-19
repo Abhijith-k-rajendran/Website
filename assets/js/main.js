@@ -22,3 +22,11 @@ function toggleNavLi(){
         burgerList.style.display = 'flex';
     }
 }
+
+const shimmer = document.querySelector('.shimmer');
+const burgerLi = document.querySelector('.burgerList');
+shimmer.addEventListener('click',()=>{
+    shimmer.style.display = "none";
+    shimmer.style.transition = '0.8s ease-in-out';
+    burgerLi.style.display = 'none';
+});
