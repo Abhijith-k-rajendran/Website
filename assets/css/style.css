@@ -16,7 +16,7 @@ body {
   position: fixed;
   height: 100vh;
   width: 100vw;
-  background: rgba(150, 150, 150, 0.461);
+  background: rgba(45, 45, 45, 0.623);
 }
 
 #homepage {
@@ -28,6 +28,7 @@ body {
   justify-content: space-between;
 }
 .homeLeft {
+  padding: 80px;
   width: 100%;
   display: flex;
   justify-content: space-evenly;
@@ -118,7 +119,7 @@ body {
 } */
 .respoHomeNav {
   display: none;
-  height: 40px;
+  justify-content: flex-end;
 }
 .burgerMenu {
   z-index: 1;
@@ -137,6 +138,13 @@ body {
   background: #000;
 }
 @media screen and (max-width: 1200px) {
+  .shimmer{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(45, 45, 45, 0.623);
+  }
   .homeRight {
     display: none;
   }
@@ -147,7 +155,7 @@ body {
     transition: smooth 0.3s;
     position: absolute;
     top: 40px;
-    right: 0;
+    right: 10px;
     display: none;
     flex-direction: column;
     justify-content: center;
@@ -175,6 +183,13 @@ body {
 }
 
 @media screen and (max-width: 600px) {
+  .shimmer{
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #0d0d0ddb;
+  }
   .homeLeft {
     display: flex;
     flex-direction: column;
