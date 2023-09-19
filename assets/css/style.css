@@ -1,0 +1,165 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Wix+Madefor+Display&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+body {
+  background: #FCFFE7;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+#homepage {
+  height: 100vh;
+}
+.home {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+.homeLeft{
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.imageSec img{
+  border: 18px solid #fff;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+.textSec{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.greetTxt,.nameTxt,.roleTxt{
+  color: #000;
+}
+.greetTxt{
+  font-size: 25px;
+  font-weight: 600;
+}
+.nameTxt{
+  font-size: 45px;
+  font-weight: 700;
+  
+}
+.roleTxt{
+  font-size: 25px;
+  font-weight: 600;
+}
+.moreBtn{
+  border: 3px solid rgb(255, 255, 255);
+  background: #000000;
+  padding: 10px 20px;
+  border-radius: 10px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+.moreBtn:hover{
+  transition: .5s ease-in-out;
+  color: #000;
+  background: #fff;
+  border: 3px solid rgb(0, 0, 0);
+}
+.homeRight {
+  background: rgb(255, 255, 255);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0px 20px;
+}
+.homeRight a img {
+  height: 40px;
+  width: 40px;
+}
+.homeRight a{
+  margin-bottom: 40px;
+}
+.homeRight a img:hover {
+  transition: 0.2s;
+  transform: scale(1.5);
+}
+
+/* .homeRight ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeRight ul li {
+  list-style: none;
+  margin-bottom: 30px;
+}
+.homeRight ul li img {
+  height: 30px;
+  width: 30px;
+}
+.homeRight ul li img:hover {
+
+} */
+.respoHomeNav{
+  display: none;
+}
+.burgerMenu{
+  z-index: 1;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  cursor: pointer;
+  top: 10px;
+  right: 10px;
+}
+.burgerMenu span{
+  height: 2px;
+  width: 20px;
+  margin: 3px;
+  background: #000;
+}
+@media screen and (max-width: 1200px) {
+  .homeRight {
+    display: none;
+  }
+  .respoHomeNav{
+    display: flex;
+  }
+  .burgerList{
+    transition: smooth 0.3s;
+    position: absolute;
+    top: 40px;
+    right: 0;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    box-shadow: inset;
+  }
+  .burgerList a{
+    margin: 10px;
+  }
+  .burgerList a img{
+    height: 20px;
+    width: 20px;
+  }
+
+  .homeLeft{
+    display: flex;
+    flex-direction: column;
+  }
+  .imageSec{
+    margin-top: 50px;
+  }
+}
+

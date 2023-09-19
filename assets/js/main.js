@@ -1,0 +1,21 @@
+function toggleNavLi(){
+    const burgerList = document.querySelector('.burgerList');
+    const burgerMenu = document.querySelector('.burgerMenu');
+    const spEl1 = document.getElementById('spOne');
+    const spEl2 = document.getElementById('spTwo');
+    const spEl3 = document.getElementById('spThree');
+
+    if(burgerMenu.classList.contains('navActive')){
+        burgerMenu.classList.remove('navActive');
+        burgerList.style.display = 'none';
+        spEl1.style.transform = "rotate(0) translate(0,0)";
+        spEl3.style.transform = "rotate(0) translate(0,0)";
+        spEl2.style.opacity = "1";
+    }else{
+        burgerMenu.classList.add('navActive');
+        spEl1.style.transform = "rotate(45deg) translate(0px, 11.2px)";
+        spEl3.style.transform = "rotate(-45deg) translate(0px, -11.2px)";
+        spEl2.style.opacity = "0";
+        burgerList.style.display = 'flex';
+    }
+}
