@@ -5,6 +5,7 @@ const spEl2 = document.getElementById('spTwo');
 const spEl3 = document.getElementById('spThree');
 const shimmer = document.querySelector('.shimmer');
 const burgerLi = document.querySelector('.burgerList');
+const bodyEl = document.querySelector('body');
 
 function toggleNavLi() {
     if (burgerMenu.classList.contains('navActive')) {
@@ -38,3 +39,20 @@ shimmer.addEventListener('click', () => {
     spEl3.style.background = "#000";
     spEl2.style.opacity = "1";
 });
+
+const colorArr = ['#ffe3e3', '#3ffeded', '#ecf1ff', '#eff5e4', '#f7fded']
+
+function getRandomItem(arr) {
+    const randomIndex = Math.floor(Math.random() * arr.length);
+    return arr[randomIndex];
+};
+
+function changeBg(color) {
+    bodyEl.style.background = color;
+    bodyEl.style.transition = '0.8s ease-in-out 0.4s'
+};
+
+setInterval(()=>{
+    changeBg(getRandomItem(colorArr))
+},3000)
+

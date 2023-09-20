@@ -9,43 +9,43 @@
 
   <body>
     <div class="shimmer"></div>
-       <div class="respoHomeNav">
-            <div class="burgerMenu" onclick="toggleNavLi()">
-              <span id="spOne"></span>
-              <span id="spTwo"></span>
-              <span id="spThree"></span>
-            </div>
-            <div class="burgerList">
-              <a
-                onclick="toggleNavLi()"
-                target="_blank"
-                href="https://www.facebook.com/abhijith.kr.501"
-                ><img src="./assets/images/facebook.png"
-              /></a>
-              <a
-                onclick="toggleNavLi()"
-                target="_blank"
-                href="https://www.linkedin.com/in/abhijith-kr-6899a1175/"
-                ><img src="./assets/images/linkedin.png"
-              /></a>
-              <a
-                onclick="toggleNavLi()"
-                target="_blank"
-                href="mailto:abhijithkrajendran@gmail.com"
-                ><img src="./assets/images/mail.png"
-              /></a>
-              <a
-                onclick="toggleNavLi()"
-                target="_blank"
-                href="./assets/files/Abhijith_kr_fullstackdev.pdf"
-                download="abhijith_kr_cv"
-                ><img src="./assets/images/paper.png"
-              /></a>
-              <a onclick="toggleNavLi()" href="tel:917025643746"
-                ><img src="./assets/images/phone.png"
-              /></a>
-            </div>
-          </div>
+    <div class="respoHomeNav">
+      <div class="burgerMenu" onclick="toggleNavLi()">
+        <span id="spOne"></span>
+        <span id="spTwo"></span>
+        <span id="spThree"></span>
+      </div>
+      <div class="burgerList">
+        <a
+          onclick="toggleNavLi()"
+          target="_blank"
+          href="https://www.facebook.com/abhijith.kr.501"
+          ><img src="./assets/images/facebook.png"
+        /></a>
+        <a
+          onclick="toggleNavLi()"
+          target="_blank"
+          href="https://www.linkedin.com/in/abhijith-kr-6899a1175/"
+          ><img src="./assets/images/linkedin.png"
+        /></a>
+        <a
+          onclick="toggleNavLi()"
+          target="_blank"
+          href="mailto:abhijithkrajendran@gmail.com"
+          ><img src="./assets/images/mail.png"
+        /></a>
+        <a
+          onclick="toggleNavLi()"
+          target="_blank"
+          href="./assets/files/Abhijith_kr_fullstackdev.pdf"
+          download="abhijith_kr_cv"
+          ><img src="./assets/images/paper.png"
+        /></a>
+        <a onclick="toggleNavLi()" href="tel:917025643746"
+          ><img src="./assets/images/phone.png"
+        /></a>
+      </div>
+    </div>
     <main>
       <section id="homepage">
         <div class="home">
@@ -58,7 +58,9 @@
               <h1 class="nameTxt">Abhijith K Rajendran</h1>
               <p class="roleTxt">&ltFull Stack Developer/></p>
               <div class="txtBtns">
-                <button class="moreBtn">More About Me</button>
+                <button class="moreBtn" onclick="window.location.href='#about'">
+                  More About Me
+                </button>
               </div>
             </div>
           </div>
@@ -86,13 +88,42 @@
           </div>
         </div>
       </section>
-      <!-- <section id="about">
 
-      <div>
-        <h1>contact</h1>
-      </div>
-
-    </section> -->
+      <section id="about">
+        <div class="aboutLeft">
+          <img src="./assets/images/about.png" alt="about image" />
+        </div>
+        <div class="aboutRight">
+          <div class="rightTop">
+            <div class="commonCard experience">
+              <img src="./assets/images/experience.png" alt="exp" />
+              <h1>Experience</h1>
+              <p>2+ years</p>
+              <p>Full Stack Development</p>
+            </div>
+            <div class="commonCard qualification">
+              <img src="./assets/images/education.png" alt="edu" />
+              <h1>Education</h1>
+              <p>B.Tech</p>
+              <p>Mechanical Engineering</p>
+            </div>
+          </div>
+          <div class="aboutDesc">
+            <p>
+              A self-taught full-stack developer with a deep passion for
+              technology and a strong foundation in both front-end and back-end
+              development. Through self-directed learning and hands-on projects,
+              I have honed my skills in building dynamic, user-friendly web
+              applications. Known for my quick learning abilities, I excel in
+              adapting to new technologies and frameworks, allowing me to stay
+              at the forefront of web development trends. Additionally, I thrive
+              in collaborative team environments, where my communication skills
+              and teamwork ethos have contributed to the success of various
+              projects.
+            </p>
+          </div>
+        </div>
+      </section>
     </main>
   </body>
   <script src="./assets/js/main.js"></script>
