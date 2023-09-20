@@ -33,6 +33,8 @@ shimmer.addEventListener('click', () => {
     shimmer.style.transition = '0.8s ease-in-out';
     burgerLi.style.display = 'none';
     spEl1.style.transform = "rotate(0) translate(0,0)";
+    spEl1.style.background = "#000";
     spEl3.style.transform = "rotate(0) translate(0,0)";
+    spEl3.style.background = "#000";
     spEl2.style.opacity = "1";
 });
