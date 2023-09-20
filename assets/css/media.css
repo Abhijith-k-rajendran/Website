@@ -1,0 +1,251 @@
+@media screen and (max-width: 1200px) {
+  .shimmer {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: rgba(45, 45, 45, 0.623);
+  }
+  .homeRight {
+    display: none;
+  }
+  .respoHomeNav {
+    display: flex;
+  }
+  .burgerList {
+    transition: smooth 0.3s;
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    padding: 10px 20px 10px 20px;
+    border-radius: 8px;
+    box-shadow: inset;
+  }
+  .burgerList a {
+    margin: 10px;
+  }
+  .burgerList a img {
+    height: 20px;
+    width: 20px;
+  }
+  .homeLeft {
+    display: flex;
+    flex-direction: column;
+  }
+  .imageSec {
+    padding: 30px;
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutLeft img {
+    height: 540px;
+    border: 15px solid #fff;
+    border-radius: 50px;
+  }
+  .aboutRight {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .aboutDesc {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 540px;
+    background: #fff;
+    border: 3px solid black;
+    padding: 10px 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .commonCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background: #fff;
+    padding: 10px 60px;
+    height: fit-content;
+    border-radius: 20px;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .shimmer {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #0d0d0ddb;
+  }
+  .homeLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .imageSec {
+    padding: 20px;
+  }
+  .imageSec img {
+    height: 280px;
+  }
+  .greetTxt {
+    font-size: 15px;
+  }
+  .nameTxt {
+    font-size: 25px;
+  }
+  .roleTxt {
+    font-size: 15px;
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutLeft img {
+    height: 500px;
+    border: 15px solid #fff;
+    border-radius: 50px;
+  }
+  .aboutRight {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .rightTop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .aboutDesc {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 500px;
+    background: #fff;
+    border: 3px solid black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .commonCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background: #fff;
+    padding: 10px 110px;
+    height: fit-content;
+    border-radius: 20px;
+  }
+}
+
+@media (max-width: 420px) {
+  .shimmer {
+    display: none;
+    position: fixed;
+    height: 100vh;
+    width: 100vw;
+    background: #0d0d0ddb;
+  }
+  .homeLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  }
+  .imageSec {
+    padding: 10px;
+  }
+  .imageSec img {
+    height: 250px;
+  }
+  .greetTxt {
+    font-size: 15px;
+  }
+  .nameTxt {
+    font-size: 25px;
+  }
+  .roleTxt {
+    font-size: 15px;
+  }
+  #about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .aboutLeft img {
+    height: 350px;
+    border: 15px solid #fff;
+    border-radius: 50px;
+  }
+  .aboutRight {
+    margin-top: 30px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .rightTop {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .experience {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+  .aboutDesc {
+    margin-top: 20px;
+    border-radius: 20px;
+    width: 350px;
+    background: #fff;
+    border: 3px solid black;
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .commonCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid black;
+    background: #fff;
+    padding: 10px 100px;
+    height: fit-content;
+    border-radius: 20px;
+  }
+}

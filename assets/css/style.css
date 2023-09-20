@@ -126,110 +126,6 @@ body {
   margin: 3px;
   background: #000;
 }
-@media screen and (max-width: 1200px) {
-  .shimmer {
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background: rgba(45, 45, 45, 0.623);
-  }
-  .homeRight {
-    display: none;
-  }
-  .respoHomeNav {
-    display: flex;
-  }
-  .burgerList {
-    transition: smooth 0.3s;
-    position: absolute;
-    top: 40px;
-    right: 10px;
-    display: none;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    background: #fff;
-    padding: 10px 20px 10px 20px;
-    border-radius: 8px;
-    box-shadow: inset;
-  }
-  .burgerList a {
-    margin: 10px;
-  }
-  .burgerList a img {
-    height: 20px;
-    width: 20px;
-  }
-  .homeLeft {
-    display: flex;
-    flex-direction: column;
-  }
-  .imageSec {
-    padding: 30px;
-  }
-}
-
-@media screen and (max-width: 600px) {
-  .shimmer {
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background: #0d0d0ddb;
-  }
-  .homeLeft {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .imageSec {
-    padding: 20px;
-  }
-  .imageSec img {
-    height: 280px;
-  }
-  .greetTxt {
-    font-size: 15px;
-  }
-  .nameTxt {
-    font-size: 25px;
-  }
-  .roleTxt {
-    font-size: 15px;
-  }
-}
-
-@media (max-width: 420px) {
-  .shimmer {
-    display: none;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    background: #0d0d0ddb;
-  }
-  .homeLeft {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .imageSec {
-    padding: 10px;
-  }
-  .imageSec img {
-    height: 250px;
-  }
-  .greetTxt {
-    font-size: 15px;
-  }
-  .nameTxt {
-    font-size: 25px;
-  }
-  .roleTxt {
-    font-size: 15px;
-  }
-}
-
 #about {
   height: 100vh;
   display: flex;
@@ -250,6 +146,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  text-align: justify;
   align-items: self-start;
 }
 .rightTop {
