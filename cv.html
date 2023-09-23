@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lexend+Deca:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/print-styles.css"
+      media="print"
+    />
+
+    <title>Abhijith K Rajendran</title>
+  </head>
+  <style>
+    ::-webkit-scrollbar {
+      display: none;
+    }
+    @page {
+      size: A4;
+      margin: 0;
+    }
+
+    body {
+      margin: 1.5cm;
+    }
+
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: "Lexend Deca", sans-serif;
+    }
+    .summary {
+      display: flex;
+      /* border: 2px solid red; */
+      margin-bottom: 30px;
+    }
+    .summary img {
+      height: 160px;
+      border-radius: 10px;
+    }
+    .role {
+      font-size: 20px;
+      font-weight: 500;
+      color: gray;
+    }
+    .description {
+      line-height: 25px;
+    }
+    .summaryRight {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: start;
+      text-align: justify;
+    }
+    .summaryChild {
+      margin: 0;
+      margin-left: 30px;
+      margin-bottom: 10px;
+    }
+    .contactSection {
+      display: flex;
+      justify-content: space-around;
+      background: #f2f2f2;
+      border-radius: 10px;
+      padding: 10px;
+      height: fit-content;
+      margin-bottom: 30px;
+    }
+    .contactSection a {
+      margin: 10px;
+      display: flex;
+      justify-content: start;
+      align-items: center;
+      text-decoration: none;
+      color: #000;
+    }
+    .contactLeft,
+    .contactRight {
+      display: flex;
+      flex-direction: column;
+    }
+    .icon {
+      height: 20px;
+      margin-right: 10px;
+    }
+    .techSkills {
+      display: flex;
+      /* width: 50%; */
+      justify-content: space-between;
+      margin-bottom: 30px;
+    }
+    .skills {
+      border: 0.2px solid #e7e7e7;
+      width: 450px;
+      padding: 0px 10px;
+      border-radius: 10px;
+    }
+    .skills p{
+        display: flex;
+    }
+    .skillsImg{
+        height: 20px;
+        margin-right: 10px;
+        display: flex;
+    }
+    .skills h3 {
+      font-size: 16px;
+      display: flex;
+      justify-content: center;
+      border-radius: 5px;
+      background: #f2f2f2;
+      padding: 4px 0px;
+    }
+    .skillsSection,
+    .educationSection,
+    .experienceSection {
+      display: flex;
+      justify-content: start;
+      background: #f2f2f2;
+      /* width: fit-content; */
+      border-radius: 10px;
+      margin-bottom: 10px;
+      padding: 0px 10px;
+    }
+    .educationDetails,
+    .experienceDetails {
+      padding: 0px 10px;
+    }
+    .titles {
+      color: rgb(0, 0, 0);
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <main style="padding: 30px">
+      <div class="summary">
+        <img src="./assets/images/about.png" alt="ProfileImage" />
+        <div class="summaryRight">
+          <h1 class="summaryChild name">ABHIJITH K R</h1>
+          <p class="summaryChild role">Full Stack Developer</p>
+          <p class="summaryChild description">
+            A self-taught developer with a strong passion for technology, known
+            for quick learning and effective teamwork. Proficient in frontend
+            development with a solid foundation in backend technologies.
+            Experienced in collaborating with both frontend and backend
+            developers. Seeking a dynamic company to further enhance my skills,
+            stay updated with the latest technologies, and contribute to
+            innovative projects.
+          </p>
+        </div>
+      </div>
+
+      <div class="contactSection">
+        <div class="contactLeft">
+          <a target="_blank" href="mailto:abhijithkrajendran@gmail.com"
+            ><img
+              class="icon"
+              src="./assets/images/gmail.png"
+              alt="icon"
+            />abhijithkrajendran@gmail.com</a
+          >
+          <a
+            ><img
+              class="icon"
+              src="./assets/images/location.png"
+              alt="icon"
+            />Kattappana</a
+          >
+          <a target="_blank" href="https://github.com/Abhijith-k-rajendran"
+            ><img
+              class="icon"
+              src="./assets/images/github.png"
+              alt="icon"
+            />https://github.com/Abhijith-k-rajendran</a
+          >
+        </div>
+        <div class="contactRight">
+          <a target="_blank" href="tel:+917025643746"
+            ><img
+              class="icon"
+              src="./assets/images/telephone.png"
+              alt="icon"
+            />+917025643746</a
+          >
+          <a
+            target="_blank"
+            href="https://www.linkedin.com/in/abhijith-kr-6899a1175/"
+            ><img
+              class="icon"
+              src="./assets/images/linkdin.png"
+              alt="icon"
+            />https://www.linkedin.com/in/abhijith-kr-6899a1175/</a
+          >
+          <a
+            target="_blank"
+            href="https://abhijith-k-rajendran.github.io/Website/"
+            ><img
+              class="icon"
+              src="./assets/images/web.png"
+              alt="icon"
+            />https://abhijith-k-rajendran.github.io/Website/</a
+          >
+        </div>
+      </div>
+      <div class="skillsSection">
+        <h1 class="titles">Technical Skills</h1>
+      </div>
+      <div class="techSkills">
+        <div class="skills skillsLeft">
+          <h3>Frontend</h3>
+          <p><img src="./assets/images/html.png" class="skillsImg" alt="icon"/>HTML5</p>
+          <p><img src="./assets/images/css.png" class="skillsImg" alt="icon"/>CSS3</p>
+          <p><img src="./assets/images/js.png" class="skillsImg" alt="icon"/>Javascript</p>
+          <p><img src="./assets/images/react.png" class="skillsImg" alt="icon"/>React.js</p>
+          <p><img src="./assets/images/next-js.svg" class="skillsImg" alt="icon"/>Next.js</p>
+        </div>
+        <div class="skills skillsMiddle">
+          <h3>Backend</h3>
+          <p><img src="./assets/images/node.png" class="skillsImg" alt="icon"/>Node.js</p>
+          <p><img src="./assets/images/express.png" class="skillsImg" alt="icon"/>Express.js</p>
+          <h3>Design Tools</h3>
+          <p><img src="./assets/images/figma.png" class="skillsImg" alt="icon"/>Figma</p>
+        </div>
+        <div class="skills skillsRight">
+          <h3>DBMS</h3>
+          <p><img src="./assets/images/mongo.png" class="skillsImg" alt="icon"/>Mongo db</p>
+          <p><img src="./assets/images/mysql.png" class="skillsImg" alt="icon"/>SQL</p>
+          <h3>VCS</h3>
+          <p><img src="./assets/images/git.png" class="skillsImg" alt="icon"/>Git</p>
+        </div>
+      </div>
+
+      <div class="educationSection">
+        <h1 class="titles">Highest Education</h1>
+      </div>
+      <div class="educationDetails">
+        <h3>Bachelor of Technology</h3>
+        <p>Mechanical Engineering</p>
+      </div>
+
+      <div class="experienceSection">
+        <h1 class="titles">Work Experience</h1>
+      </div>
+
+      <div class="experienceDetails">
+        <p>full-stack developer</p>
+        <p>Esight Business Solutions</p>
+        <div class="experienceDate">
+          <span>Angamaly</span>
+          <span>August 2021 - September 2023</span>
+        </div>
+        <ul>
+          <li>
+            Spearheaded planning and development of ERP systems and custom
+            software solutions
+          </li>
+          <li>
+            Collaborated with frontend and backend teams to deliver high-quality
+            projects
+          </li>
+          <li>
+            Assumed diverse roles including project management and technical
+            support engineering
+          </li>
+        </ul>
+      </div>
+    </main>
+  </body>
+</html>

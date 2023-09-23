@@ -1,9 +1,16 @@
 @import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Wix+Madefor+Display&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
 
+::-webkit-scrollbar {
+  display: none;
+}
+
+html{
+  scroll-behavior: smooth;
+}
 body {
-  /* background: #fcffe7; */
-  background: #fff;
+  background: #fcfbf3;
+  /* background: #fff; */
   padding: 0;
   margin: 0;
   font-family: "Poppins", sans-serif;
@@ -25,19 +32,22 @@ body {
   height: 100vh;
 }
 .home {
-  width: 100%;
+  width: calc(100% - 80px);
   display: flex;
   justify-content: space-between;
 }
 .homeLeft {
-  width: 100%;
+  width: calc(100% - 80px);
   height: 100vh;
   display: flex;
   justify-content: space-evenly;
   align-items: center;
 }
 .imageSec {
-  padding: 60px;
+  width: calc(50% - 40px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .imageSec img {
   border: 18px solid #fff;
@@ -46,7 +56,7 @@ body {
   border-radius: 50%;
 }
 .textSec {
-  width: 100%;
+  width: calc(50% - 40px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -56,9 +66,11 @@ body {
 .nameTxt,
 .roleTxt {
   color: #000;
+  margin: 0;
+  margin-bottom: 30px;
 }
 .greetTxt {
-  font-size: 25px;
+  font-size: 42px;
   font-weight: 600;
 }
 .nameTxt {
@@ -68,6 +80,7 @@ body {
 .roleTxt {
   font-size: 25px;
   font-weight: 600;
+  color: #454545;
 }
 .moreBtn {
   border: 3px solid rgb(255, 255, 255);
@@ -93,7 +106,9 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 0px 20px;
+  align-items: center;
+  /* padding: 0px 20px; */
+  width: 80px;
 }
 .homeRight a img {
   height: 40px;
@@ -160,10 +175,11 @@ body {
   width: 740px;
   background: #fff;
   border: 3px solid black;
-  padding: 10px 40PX;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  padding: 20px 40px 35px 40px;
+}
+.aboutDesc p{
+  font-weight: 500;
+  line-height: 240%;
 }
 .commonCard {
   display: flex;

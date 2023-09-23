@@ -6,6 +6,7 @@ const spEl3 = document.getElementById('spThree');
 const shimmer = document.querySelector('.shimmer');
 const burgerLi = document.querySelector('.burgerList');
 const bodyEl = document.querySelector('body');
+const downloadBtn = document.getElementById('downloadButton');
 
 function toggleNavLi() {
     if (burgerMenu.classList.contains('navActive')) {
@@ -52,7 +53,24 @@ function changeBg(color) {
     bodyEl.style.transition = '0.8s ease-in-out 0.4s'
 };
 
-setInterval(()=>{
+/*setInterval(()=>{
     changeBg(getRandomItem(colorArr))
-},3000)
+},3000)*/
 
+function downloadFile() {
+    downloadBtn.setAttribute('disabled',true);
+    downloadBtn.innerText = "Downloading";
+    setTimeout(()=>{
+        downloadBtn.innerText = "Downloaded";
+    },500);
+    downloadBtn.style.background = '#fff';
+    downloadBtn.style.color = '#000';
+    downloadBtn.style.fontWeight = '500';
+    downloadBtn.style.border = '1px solid black';
+    const link = document.createElement('a');
+    link.href = './assets/files/Abhijith_kr_fullstackdev.pdf';
+    link.download = 'abhijith_k_r_cv_2023';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+}
