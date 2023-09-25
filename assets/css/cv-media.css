@@ -1,0 +1,149 @@
+@media screen and (max-width: 575.98px) {
+  .summary {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+  }
+  .summary img {
+    width: 150px;
+    height: 150px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+  }
+  .role {
+    font-size: 20px;
+    font-weight: 500;
+    color: gray;
+  }
+  .description {
+    line-height: 25px;
+  }
+  .summaryRight {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+  }
+  .summaryChild {
+    margin: 0;
+    /* margin-left: 30px; */
+    margin-bottom: 10px;
+  }
+  .contactSection {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background: #f2f2f2;
+    border-radius: 10px;
+    padding: 10px;
+    height: fit-content;
+    margin-bottom: 30px;
+  }
+  .contactSection a {
+    margin: 10px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    text-decoration: none;
+    color: #000;
+  }
+  .contactLeft,
+  .contactRight {
+    display: flex;
+    flex-direction: column;
+  }
+  .icon {
+    height: 20px;
+    margin-right: 10px;
+  }
+  .techSkills {
+    display: flex;
+    flex-direction: column;
+    /* width: 50%; */
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+  .skills {
+    border: 0.2px solid #e7e7e7;
+    /* width: 350px; */
+    width: calc(100% - 25px);
+    padding: 0px 10px;
+    border-radius: 10px;
+  }
+  .skills p {
+    display: flex;
+  }
+  .skillsImg {
+    height: 20px;
+    margin-right: 10px;
+    display: flex;
+  }
+  .skills h3 {
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    border-radius: 5px;
+    background: #f2f2f2;
+    padding: 4px 0px;
+  }
+  .skillsSection,
+  .educationSection,
+  .experienceSection {
+    display: flex;
+    justify-content: start;
+    background: #f2f2f2;
+    /* width: fit-content; */
+    border-radius: 10px;
+    margin-bottom: 10px;
+    padding: 0px 10px;
+  }
+  .educationDetails,
+  .experienceDetails {
+    padding: 0px 10px;
+  }
+  .experienceDetails {
+    border: 0.2px solid #e7e7e7;
+    padding: 0px 10px;
+    border-radius: 10px;
+  }
+  .experienceDetails P {
+    margin: 10px 0px;
+  }
+  .titles {
+    color: rgb(0, 0, 0);
+    font-size: 20px;
+  }
+  .experienceRole {
+    font-size: 18px;
+    font-weight: 600;
+  }
+  .experienceCompany {
+    font-size: 16px;
+    font-weight: 500;
+    color: #707070;
+  }
+  .experienceDate {
+    display: flex;
+    justify-content: space-between;
+    color: #707070;
+    font-size: 16px;
+  }
+}
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /* Your styles here */
+}
+@media (min-width: 768px) and (max-width: 991.98px) {
+  /* Your styles here */
+}
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  /* Your styles here */
+}
+@media (min-width: 1200px) {
+  /* Your styles here */
+}
+@media (orientation: portrait) {
+  /* Your styles here */
+}

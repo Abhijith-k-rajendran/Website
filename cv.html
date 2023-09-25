@@ -15,6 +15,11 @@
       href="assets/css/print-styles.css"
       media="print"
     />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="assets/css/cv-media.css"
+    />
 
     <title>Abhijith K Rajendran</title>
   </head>
@@ -103,13 +108,13 @@
       padding: 0px 10px;
       border-radius: 10px;
     }
-    .skills p{
-        display: flex;
+    .skills p {
+      display: flex;
     }
-    .skillsImg{
-        height: 20px;
-        margin-right: 10px;
-        display: flex;
+    .skillsImg {
+      height: 20px;
+      margin-right: 10px;
+      display: flex;
     }
     .skills h3 {
       font-size: 16px;
@@ -134,9 +139,32 @@
     .experienceDetails {
       padding: 0px 10px;
     }
+    .experienceDetails {
+      border: 0.2px solid #e7e7e7;
+      padding: 0px 10px;
+      border-radius: 10px;
+    }
+    .experienceDetails P{
+        margin: 10px 0px;
+    }
     .titles {
       color: rgb(0, 0, 0);
       font-size: 20px;
+    }
+    .experienceRole {
+      font-size: 18px;
+      font-weight: 600;
+    }
+    .experienceCompany {
+      font-size: 16px;
+      font-weight: 500;
+      color: #707070;
+    }
+    .experienceDate {
+      display: flex;
+      justify-content: space-between;
+      color: #707070;
+      font-size: 16px;
     }
   </style>
   <body>
@@ -216,25 +244,91 @@
       <div class="techSkills">
         <div class="skills skillsLeft">
           <h3>Frontend</h3>
-          <p><img src="./assets/images/html.png" class="skillsImg" alt="icon"/>HTML5</p>
-          <p><img src="./assets/images/css.png" class="skillsImg" alt="icon"/>CSS3</p>
-          <p><img src="./assets/images/js.png" class="skillsImg" alt="icon"/>Javascript</p>
-          <p><img src="./assets/images/react.png" class="skillsImg" alt="icon"/>React.js</p>
-          <p><img src="./assets/images/next-js.svg" class="skillsImg" alt="icon"/>Next.js</p>
+          <p>
+            <img
+              src="./assets/images/html.png"
+              class="skillsImg"
+              alt="icon"
+            />HTML5
+          </p>
+          <p>
+            <img
+              src="./assets/images/css.png"
+              class="skillsImg"
+              alt="icon"
+            />CSS3
+          </p>
+          <p>
+            <img
+              src="./assets/images/js.png"
+              class="skillsImg"
+              alt="icon"
+            />Javascript
+          </p>
+          <p>
+            <img
+              src="./assets/images/react.png"
+              class="skillsImg"
+              alt="icon"
+            />React.js
+          </p>
+          <p>
+            <img
+              src="./assets/images/next-js.svg"
+              class="skillsImg"
+              alt="icon"
+            />Next.js
+          </p>
         </div>
         <div class="skills skillsMiddle">
           <h3>Backend</h3>
-          <p><img src="./assets/images/node.png" class="skillsImg" alt="icon"/>Node.js</p>
-          <p><img src="./assets/images/express.png" class="skillsImg" alt="icon"/>Express.js</p>
+          <p>
+            <img
+              src="./assets/images/node.png"
+              class="skillsImg"
+              alt="icon"
+            />Node.js
+          </p>
+          <p>
+            <img
+              src="./assets/images/express.png"
+              class="skillsImg"
+              alt="icon"
+            />Express.js
+          </p>
           <h3>Design Tools</h3>
-          <p><img src="./assets/images/figma.png" class="skillsImg" alt="icon"/>Figma</p>
+          <p>
+            <img
+              src="./assets/images/figma.png"
+              class="skillsImg"
+              alt="icon"
+            />Figma
+          </p>
         </div>
         <div class="skills skillsRight">
           <h3>DBMS</h3>
-          <p><img src="./assets/images/mongo.png" class="skillsImg" alt="icon"/>Mongo db</p>
-          <p><img src="./assets/images/mysql.png" class="skillsImg" alt="icon"/>SQL</p>
+          <p>
+            <img
+              src="./assets/images/mongo.png"
+              class="skillsImg"
+              alt="icon"
+            />Mongo db
+          </p>
+          <p>
+            <img
+              src="./assets/images/mysql.png"
+              class="skillsImg"
+              alt="icon"
+            />SQL
+          </p>
           <h3>VCS</h3>
-          <p><img src="./assets/images/git.png" class="skillsImg" alt="icon"/>Git</p>
+          <p>
+            <img
+              src="./assets/images/git.png"
+              class="skillsImg"
+              alt="icon"
+            />Git
+          </p>
         </div>
       </div>
 
@@ -251,8 +345,8 @@
       </div>
 
       <div class="experienceDetails">
-        <p>full-stack developer</p>
-        <p>Esight Business Solutions</p>
+        <p class="experienceRole">Full-stack developer</p>
+        <p class="experienceCompany">Esight Business Solutions</p>
         <div class="experienceDate">
           <span>Angamaly</span>
           <span>August 2021 - September 2023</span>

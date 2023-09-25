@@ -1,24 +1,141 @@
-/* p {
-  font-size: 12px;
+
+@page {
+  size: A4;
+  margin: 0;
 }
-a {
-  font-size: 12px;
+
+body {
+  margin: 1.5cm;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lexend Deca", sans-serif;
 }
 .summary {
-  margin-bottom: 10px;
+  display: flex;
+  /* border: 2px solid red; */
+  margin-bottom: 0px;
+}
+.summary img {
+  height: 160px;
+  border-radius: 10px;
+}
+.name{
+  font-size: 18px;
+}
+.role {
+  font-size: 16px;
+  font-weight: 500;
+  color: gray;
 }
 .description {
-  font-size: 10px;
+  font-size: 14px;
+  line-height: 18px;
+}
+.summaryRight {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: start;
+  text-align: justify;
+}
+.summaryChild {
+  margin: 0;
+  margin-left: 30px;
+  margin-bottom: 10px;
+}
+.contactSection {
+  display: flex;
+  justify-content: space-around;
+  background: #f2f2f2;
+  border-radius: 10px;
+  padding: 10px;
+  height: fit-content;
+  margin-bottom: 20px;
+}
+.contactSection a {
+  font-size: 14px;
+  margin: 10px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  text-decoration: none;
+  color: #000;
+}
+.contactLeft,
+.contactRight {
+  display: flex;
+  flex-direction: column;
+}
+.icon {
+  height: 15px;
+  margin-right: 10px;
 }
 .techSkills {
-  display: none;
+  display: flex;
+  /* width: 50%; */
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.skills {
+  border: 0.2px solid #e7e7e7;
+  width: 200px;
+  padding: 0px 10px;
+  border-radius: 10px;
+}
+.skills p{
+    display: flex;
+}
+.skillsImg{
+    height: 15px;
+    margin-right: 10px;
+    display: flex;
+}
+.skills h3 {
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  border-radius: 5px;
+  background: #f2f2f2;
+  padding: 4px 0px;
+}
+.skillsSection,
+.educationSection,
+.experienceSection {
+  display: flex;
+  justify-content: start;
+  background: #f2f2f2;
+  /* width: fit-content; */
+  border-radius: 10px;
+  margin-bottom: 10px;
+  padding: 0px 10px;
+}
+.educationDetails,
+.experienceDetails {
+  padding: 0px 10px;
+}
+.educationDetails h3{
+  font-size: 16px;
+}
+.educationDetails p{
+  font-size: 14px;
 }
 .titles {
   color: rgb(0, 0, 0);
-  font-size: 2px;
-} */
-
-
-body{
-  background: red;
+  font-size: 15px;
+}
+.experienceRole{
+  font-size: 16px;
+  font-weight: 600;
+}
+.experienceCompany{
+  font-size: 14px;
+}
+.experienceDate {
+  display: flex;
+  justify-content: space-between;
+  color: #707070;
+  font-size: 14px;
 }
