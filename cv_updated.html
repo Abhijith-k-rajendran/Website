@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <style>
+        body {
+            font-family: 'Roboto', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        .container {
+            width: 100%;
+            max-width: 800px;
+            background: #fff;
+            margin: 20px auto;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        header {
+            display: flex;
+            align-items: center;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 20px;
+            margin-bottom: 20px;
+        }
+        header img {
+            border-radius: 50%;
+            margin-right: 20px;
+            width: 100px;
+            height: 100px;
+        }
+        header h1 {
+            font-size: 28px;
+            margin: 0;
+            color: #333;
+        }
+        header h2 {
+            font-size: 18px;
+            margin: 5px 0;
+            color: #777;
+        }
+        header p {
+            margin: 0;
+            color: #555;
+        }
+        .contact-info {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 20px;
+        }
+        .contact-info p {
+            width: 50%;
+            margin: 0;
+            padding: 5px 0;
+            display: flex;
+            align-items: center;
+        }
+        .contact-info i {
+            margin-right: 10px;
+            color: #007BFF;
+        }
+        .section {
+            margin-bottom: 20px;
+        }
+        .section h2 {
+            font-size: 22px;
+            border-bottom: 2px solid #f4f4f4;
+            padding-bottom: 10px;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        .skills, .experience, .education, .projects, .certifications {
+            margin-bottom: 20px;
+        }
+        .skills ul, .projects ul, .certifications ul {
+            list-style: none;
+            padding-left: 0;
+            display: flex;
+            flex-wrap: wrap;
+        }
+        .skills ul li, .projects ul li, .certifications ul li {
+            background: #f9f9f9;
+            margin: 5px;
+            padding: 10px;
+            border: 1px solid #ddd;
+            flex: 1 1 45%;
+            display: flex;
+            align-items: center;
+        }
+        .skills ul li i, .projects ul li i, .certifications ul li i {
+            margin-right: 10px;
+            color: #007BFF;
+        }
+        .job {
+            margin-bottom: 10px;
+        }
+        .job h3 {
+            font-size: 18px;
+            margin: 0 0 5px 0;
+            color: #555;
+        }
+        .job p {
+            margin: 0 0 5px 0;
+            color: #777;
+        }
+        .job ul {
+            margin: 0;
+            padding-left: 20px;
+        }
+        .job ul li {
+            display: flex;
+            align-items: flex-start;
+            margin-bottom: 5px;
+        }
+        .job ul li i {
+            margin-right: 10px;
+            color: #007BFF;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <img src="https://via.placeholder.com/100" alt="Profile Picture">
+            <div>
+                <h1>[Your Name]</h1>
+                <h2>Full Stack Developer</h2>
+                <p>A self-taught developer with a strong passion for technology, known for quick learning and effective teamwork. Proficient in frontend development with a solid foundation in backend technologies. Experienced in collaborating with both frontend and backend developers. Seeking a dynamic company to further enhance my skills, stay updated with the latest technologies, and contribute to innovative projects.</p>
+            </div>
+        </header>
+        <div class="contact-info">
+            <p><i class="fas fa-envelope"></i> abhiijthkrajendran@gmail.com</p>
+            <p><i class="fas fa-phone"></i> 971524422152</p>
+            <p><i class="fas fa-map-marker-alt"></i> Sharjah</p>
+            <p><i class="fab fa-linkedin"></i> <a href="https://www.linkedin.com/in/abhijith-kr-6899a1175/" target="_blank">linkedin.com/in/abhijith-kr-6899a1175/</a></p>
+            <p><i class="fab fa-github"></i> <a href="https://github.com/Abhijith-k-rajendran" target="_blank">github.com/Abhijith-k-rajendran</a></p>
+            <p><i class="fas fa-globe"></i> <a href="https://abhijith-k-rajendran.github.io/Website/" target="_blank">abhijith-k-rajendran.github.io/Website/</a></p>
+        </div>
+        <section class="skills section">
+            <h2><i class="fas fa-laptop-code"></i> Technical Skills</h2>
+            <div class="skills-list">
+                <h3>Frontend:</h3>
+                <ul>
+                    <li><i class="fab fa-html5"></i> HTML5</li>
+                    <li><i class="fab fa-css3-alt"></i> CSS3</li>
+                    <li><i class="fab fa-js"></i> Javascript</li>
+                    <li><i class="fab fa-react"></i> React.js</li>
+                    <li><i class="fab fa-react"></i> Next.js</li>
+                </ul>
+                <h3>Backend:</h3>
+                <ul>
+                    <li><i class="fab fa-node-js"></i> Node.js</li>
+                    <li><i class="fas fa-server"></i> Express.js</li>
+                </ul>
+                <h3>DBMS:</h3>
+                <ul>
+                    <li><i class="fas fa-database"></i> MongoDB</li>
+                    <li><i class="fas fa-database"></i> SQL</li>
+                </ul>
+                <h3>VCS:</h3>
+                <ul>
+                    <li><i class="fab fa-git-alt"></i> Git</li>
+                </ul>
+                <h3>Design Tools:</h3>
+                <ul>
+                    <li><i class="fab fa-figma"></i> Figma</li>
+                </ul>
+            </div>
+        </section>
+        <section class="experience section">
+            <h2><i class="fas fa-briefcase"></i> Experience</h2>
+            <div class="job">
+                <h3>Software Developer | FACTS Computer Software House</h3>
+                <p>Dubai, UAE | September 2023 - Present</p>
+                <ul>
+                    <li><i class="fas fa-caret-right"></i> Develop and maintain web applications using React.js and Node.js for a variety of client projects.</li>
+                    <li><i class="fas fa-caret-right"></i> Collaborate with designers and back-end engineers to ensure seamless integration and functionality.</li>
+                    <li><i class="fas fa-caret-right"></i> Implement clean, efficient, and maintainable code adhering to best practices.</li>
+                    <li><i class="fas fa-caret-right"></i> Conduct unit testing and participate in code reviews to maintain code quality.</li>
+                    <li><i class="fas fa-caret-right"></i> Achievements: (Add specific achievements or contributions here - quantifiable results are best for ATS)</li>
+                </ul>
+            </div>
+            <div class="job">
+                <h3>Software Developer | Esight Business Solutions</h3>
+                <p>Angamaly, Kerala | August 2020 - September 2023</p>
+                <ul>
+                    <li><i class="fas fa-caret-right"></i> Designed and developed user-friendly web applications utilizing React.js for enhanced user experience.</li>
+                    <li><i class="fas fa-caret-right"></i> Built robust back-end functionalities using Node.js to handle data processing and server-side logic.</li>
+                    <li><i class="fas fa-caret-right"></i> Contributed to the development and maintenance of existing web applications.</li>
+                    <li><i class="fas fa-caret-right"></i> Worked closely with cross-functional teams to deliver projects on time and within budget.</li>
+                    <li><i class="fas fa-caret-right"></i> Achievements: (Add specific achievements or contributions here - quantifiable results are best for ATS)</li>
+                </ul>
+            </div>
+        </section>
+        <section class="education section">
+            <h2><i class="fas fa-graduation-cap"></i> Education</h2>
+            <p>[Degree Name] | [University Name] | [City, State] | [Graduation Year]</p>
+        </section>
+        <section class="projects section">
+            <h2><i class="fas fa-tasks"></i> Projects</h2>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> (List any personal projects that showcase your skills)</li>
+            </ul>
+        </section>
+        <section class="certifications section">
+            <h2><i class="fas fa-certificate"></i> Certifications</h2>
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Certified JavaScript Developer by [Certification Authority]</li>
+                <li><i class="fas fa-check-circle"></i> Any other relevant certifications</li>
+            </ul>
+        </section>
+    </div>
+</body>
+</html>
